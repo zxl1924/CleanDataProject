@@ -50,7 +50,7 @@ Q5<-aggregate(totalData[,names(totalData3)!=c('activityId','subjectId',"activity
 #add activity type
 Q5<-merge(Q5,activityLabel,by="activityId")
 #export the final answer
-write.table(Q5, './Q5.txt',row.names=TRUE,sep='\t')
+write.table(Q5, './Q5.txt',row.names=FALSE)
 
 
 
