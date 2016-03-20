@@ -1,6 +1,6 @@
 Introduction.
 
-The script project.R performs the 5 steps described in the course project's definition.
+The script run_analysis.R performs the 5 steps described in the course project's definition.
 
 First, dataset is downloaded through the given website. I unzip the file and read Features, Activity_labels, training datasets as well as test datasets into r script.
 
